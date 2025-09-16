@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey to help us improve our programs.</p>
+    
+    <form id="survey-form">
+      <!-- Name -->
+      <label id="name-label" for="name">Name</label>
+      <input required type="text" id="name" placeholder="Enter your name">
+      <br><br>
+
+      <!-- Email -->
+      <label id="email-label" for="email">Email</label>
+      <input required type="email" id="email" placeholder="Enter your email">
+      <br><br>
+
+      <!-- Age -->
+      <label id="number-label" for="number">Age</label>
+      <input type="number" id="number" min="1" max="120" placeholder="Enter your age">
+      <br><br>
+
+      <!-- Religion -->
+      <label>Religion</label><br>
+      <input type="checkbox" name="religion" value="Islam" id="islam">
+      <label for="islam">Islam</label>
+      <input type="checkbox" name="religion" value="Shanatan" id="shanatan">
+      <label for="shanatan">Shanatan</label>
+      <br><br>
+
+      <!-- Gender -->
+<label>Gender</label><br>
+<input type="radio" name="gender" value="female" id="female" required>
+<label for="female">Female</label>
+<input type="radio" name="gender" value="male" id="male">
+<label for="male">Male</label>
+<br><br>
+
+<label>Experience Level</label><br>
+<input type="radio" name="experience" value="beginner" id="beginner" required>
+<label for="beginner">Beginner</label>
+<input type="radio" name="experience" value="advanced" id="advanced">
+<label for="advanced">Advanced</label>
+<br><br>
+
+      <!-- Position -->
+      <label for="dropdown">Position</label>
+      <select id="dropdown" required>
+        <option value="">Select your position</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+      </select>
+      <br><br>
+
+      <!-- Comments -->
+      <label for="comments">Comments</label>
+      <br>
+      <textarea id="comments" placeholder="Write here....."></textarea>
+      <br><br>
+
+      <!-- Submit -->
+      <input type="submit" id="submit">
+    </form>
+  </body>
+</html>
