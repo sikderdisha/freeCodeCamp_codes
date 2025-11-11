@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Review</title>
+</head>
+
+<body>
+<main>
+    <h1>Modern Times</h1>
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="random">
+
+    <p>Modern Times. 1936 | 1h 27m</p>
+
+    
+        <p>
+    <strong>Movie Rating: </strong>
+    <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span> (9/10)
+</p>
+
+
+    <h2>Cast Members</h2>
+    <ul>
+        <li><strong>James Holloway</strong> as Ethan Carter</li>
+        <li><strong>Linda Thompson</strong> as Sarah Miller</li>
+        <li><strong>Michael Richards</strong> as Tom Bennett</li>
+        <li><strong>Emily Clark</strong> as Rachel Adams</li>
+    </ul>
+</main>
+</body>
+</html>
